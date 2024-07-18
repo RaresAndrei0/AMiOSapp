@@ -35,14 +35,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D87E6B412C48FFAA005CC397 /* AMiOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMiOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D87E6B412C48FFAA005CC397 /* Culturi Agricole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Culturi Agricole.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D87E6B442C48FFAA005CC397 /* AMiOSAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMiOSAppApp.swift; sourceTree = "<group>"; };
 		D87E6B462C48FFAA005CC397 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D87E6B482C48FFAB005CC397 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D87E6B4B2C48FFAB005CC397 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D87E6B512C48FFAB005CC397 /* AMiOSAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMiOSAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D87E6B512C48FFAB005CC397 /* Culturi AgricoleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Culturi AgricoleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D87E6B552C48FFAB005CC397 /* AMiOSAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMiOSAppTests.swift; sourceTree = "<group>"; };
-		D87E6B5B2C48FFAB005CC397 /* AMiOSAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMiOSAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D87E6B5B2C48FFAB005CC397 /* Culturi AgricoleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Culturi AgricoleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D87E6B5F2C48FFAB005CC397 /* AMiOSAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMiOSAppUITests.swift; sourceTree = "<group>"; };
 		D87E6B612C48FFAB005CC397 /* AMiOSAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMiOSAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D87E6B6E2C48FFFD005CC397 /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
@@ -86,9 +86,9 @@
 		D87E6B422C48FFAA005CC397 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D87E6B412C48FFAA005CC397 /* AMiOSApp.app */,
-				D87E6B512C48FFAB005CC397 /* AMiOSAppTests.xctest */,
-				D87E6B5B2C48FFAB005CC397 /* AMiOSAppUITests.xctest */,
+				D87E6B412C48FFAA005CC397 /* Culturi Agricole.app */,
+				D87E6B512C48FFAB005CC397 /* Culturi AgricoleTests.xctest */,
+				D87E6B5B2C48FFAB005CC397 /* Culturi AgricoleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,9 +133,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D87E6B402C48FFAA005CC397 /* AMiOSApp */ = {
+		D87E6B402C48FFAA005CC397 /* Culturi Agricole */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D87E6B652C48FFAB005CC397 /* Build configuration list for PBXNativeTarget "AMiOSApp" */;
+			buildConfigurationList = D87E6B652C48FFAB005CC397 /* Build configuration list for PBXNativeTarget "Culturi Agricole" */;
 			buildPhases = (
 				D87E6B3D2C48FFAA005CC397 /* Sources */,
 				D87E6B3E2C48FFAA005CC397 /* Frameworks */,
@@ -145,14 +145,14 @@
 			);
 			dependencies = (
 			);
-			name = AMiOSApp;
+			name = "Culturi Agricole";
 			productName = AMiOSApp;
-			productReference = D87E6B412C48FFAA005CC397 /* AMiOSApp.app */;
+			productReference = D87E6B412C48FFAA005CC397 /* Culturi Agricole.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D87E6B502C48FFAB005CC397 /* AMiOSAppTests */ = {
+		D87E6B502C48FFAB005CC397 /* Culturi AgricoleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D87E6B682C48FFAB005CC397 /* Build configuration list for PBXNativeTarget "AMiOSAppTests" */;
+			buildConfigurationList = D87E6B682C48FFAB005CC397 /* Build configuration list for PBXNativeTarget "Culturi AgricoleTests" */;
 			buildPhases = (
 				D87E6B4D2C48FFAB005CC397 /* Sources */,
 				D87E6B4E2C48FFAB005CC397 /* Frameworks */,
@@ -163,14 +163,14 @@
 			dependencies = (
 				D87E6B532C48FFAB005CC397 /* PBXTargetDependency */,
 			);
-			name = AMiOSAppTests;
+			name = "Culturi AgricoleTests";
 			productName = AMiOSAppTests;
-			productReference = D87E6B512C48FFAB005CC397 /* AMiOSAppTests.xctest */;
+			productReference = D87E6B512C48FFAB005CC397 /* Culturi AgricoleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D87E6B5A2C48FFAB005CC397 /* AMiOSAppUITests */ = {
+		D87E6B5A2C48FFAB005CC397 /* Culturi AgricoleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D87E6B6B2C48FFAB005CC397 /* Build configuration list for PBXNativeTarget "AMiOSAppUITests" */;
+			buildConfigurationList = D87E6B6B2C48FFAB005CC397 /* Build configuration list for PBXNativeTarget "Culturi AgricoleUITests" */;
 			buildPhases = (
 				D87E6B572C48FFAB005CC397 /* Sources */,
 				D87E6B582C48FFAB005CC397 /* Frameworks */,
@@ -181,9 +181,9 @@
 			dependencies = (
 				D87E6B5D2C48FFAB005CC397 /* PBXTargetDependency */,
 			);
-			name = AMiOSAppUITests;
+			name = "Culturi AgricoleUITests";
 			productName = AMiOSAppUITests;
-			productReference = D87E6B5B2C48FFAB005CC397 /* AMiOSAppUITests.xctest */;
+			productReference = D87E6B5B2C48FFAB005CC397 /* Culturi AgricoleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -209,7 +209,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D87E6B3C2C48FFAA005CC397 /* Build configuration list for PBXProject "AMiOSApp" */;
+			buildConfigurationList = D87E6B3C2C48FFAA005CC397 /* Build configuration list for PBXProject "Culturi Agricole" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -222,9 +222,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D87E6B402C48FFAA005CC397 /* AMiOSApp */,
-				D87E6B502C48FFAB005CC397 /* AMiOSAppTests */,
-				D87E6B5A2C48FFAB005CC397 /* AMiOSAppUITests */,
+				D87E6B402C48FFAA005CC397 /* Culturi Agricole */,
+				D87E6B502C48FFAB005CC397 /* Culturi AgricoleTests */,
+				D87E6B5A2C48FFAB005CC397 /* Culturi AgricoleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -288,12 +288,12 @@
 /* Begin PBXTargetDependency section */
 		D87E6B532C48FFAB005CC397 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D87E6B402C48FFAA005CC397 /* AMiOSApp */;
+			target = D87E6B402C48FFAA005CC397 /* Culturi Agricole */;
 			targetProxy = D87E6B522C48FFAB005CC397 /* PBXContainerItemProxy */;
 		};
 		D87E6B5D2C48FFAB005CC397 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D87E6B402C48FFAA005CC397 /* AMiOSApp */;
+			target = D87E6B402C48FFAA005CC397 /* Culturi Agricole */;
 			targetProxy = D87E6B5C2C48FFAB005CC397 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -439,7 +439,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = AM.AMiOSApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "AM.Culturi-Agricole";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -468,7 +468,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = AM.AMiOSApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "AM.Culturi-Agricole";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -492,7 +492,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AMiOSApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AMiOSApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Culturi Agricole.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Culturi Agricole";
 			};
 			name = Debug;
 		};
@@ -512,7 +512,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AMiOSApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AMiOSApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Culturi Agricole.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Culturi Agricole";
 			};
 			name = Release;
 		};
@@ -555,7 +555,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D87E6B3C2C48FFAA005CC397 /* Build configuration list for PBXProject "AMiOSApp" */ = {
+		D87E6B3C2C48FFAA005CC397 /* Build configuration list for PBXProject "Culturi Agricole" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D87E6B632C48FFAB005CC397 /* Debug */,
@@ -564,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D87E6B652C48FFAB005CC397 /* Build configuration list for PBXNativeTarget "AMiOSApp" */ = {
+		D87E6B652C48FFAB005CC397 /* Build configuration list for PBXNativeTarget "Culturi Agricole" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D87E6B662C48FFAB005CC397 /* Debug */,
@@ -573,7 +573,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D87E6B682C48FFAB005CC397 /* Build configuration list for PBXNativeTarget "AMiOSAppTests" */ = {
+		D87E6B682C48FFAB005CC397 /* Build configuration list for PBXNativeTarget "Culturi AgricoleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D87E6B692C48FFAB005CC397 /* Debug */,
@@ -582,7 +582,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D87E6B6B2C48FFAB005CC397 /* Build configuration list for PBXNativeTarget "AMiOSAppUITests" */ = {
+		D87E6B6B2C48FFAB005CC397 /* Build configuration list for PBXNativeTarget "Culturi AgricoleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D87E6B6C2C48FFAB005CC397 /* Debug */,
