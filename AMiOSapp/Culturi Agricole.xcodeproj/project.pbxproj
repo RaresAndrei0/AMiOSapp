@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D8093D3E2CB46FC800A6D61E /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8093D3D2CB46FC800A6D61E /* WebView.swift */; };
+		D8093D422CB4702B00A6D61E /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8093D412CB4702500A6D61E /* WebView.swift */; };
 		D87E6B452C48FFAA005CC397 /* AMiOSAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87E6B442C48FFAA005CC397 /* AMiOSAppApp.swift */; };
 		D87E6B472C48FFAA005CC397 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87E6B462C48FFAA005CC397 /* ContentView.swift */; };
 		D87E6B492C48FFAB005CC397 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D87E6B482C48FFAB005CC397 /* Assets.xcassets */; };
@@ -14,7 +16,6 @@
 		D87E6B562C48FFAB005CC397 /* AMiOSAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87E6B552C48FFAB005CC397 /* AMiOSAppTests.swift */; };
 		D87E6B602C48FFAB005CC397 /* AMiOSAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87E6B5F2C48FFAB005CC397 /* AMiOSAppUITests.swift */; };
 		D87E6B622C48FFAB005CC397 /* AMiOSAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87E6B612C48FFAB005CC397 /* AMiOSAppUITestsLaunchTests.swift */; };
-		D87E6B6F2C48FFFE005CC397 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87E6B6E2C48FFFD005CC397 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D8093D3D2CB46FC800A6D61E /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		D8093D412CB4702500A6D61E /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		D87E6B412C48FFAA005CC397 /* Culturi Agricole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Culturi Agricole.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D87E6B442C48FFAA005CC397 /* AMiOSAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMiOSAppApp.swift; sourceTree = "<group>"; };
 		D87E6B462C48FFAA005CC397 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,7 +48,6 @@
 		D87E6B5B2C48FFAB005CC397 /* Culturi AgricoleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Culturi AgricoleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D87E6B5F2C48FFAB005CC397 /* AMiOSAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMiOSAppUITests.swift; sourceTree = "<group>"; };
 		D87E6B612C48FFAB005CC397 /* AMiOSAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMiOSAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		D87E6B6E2C48FFFD005CC397 /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +100,8 @@
 			children = (
 				D87E6B442C48FFAA005CC397 /* AMiOSAppApp.swift */,
 				D87E6B462C48FFAA005CC397 /* ContentView.swift */,
-				D87E6B6E2C48FFFD005CC397 /* WebView.swift */,
+				D8093D3D2CB46FC800A6D61E /* WebView.swift */,
+				D8093D412CB4702500A6D61E /* WebView.swift */,
 				D87E6B482C48FFAB005CC397 /* Assets.xcassets */,
 				D87E6B4A2C48FFAB005CC397 /* Preview Content */,
 			);
@@ -194,7 +197,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
-				LastUpgradeCheck = 1540;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					D87E6B402C48FFAA005CC397 = {
 						CreatedOnToolsVersion = 15.4;
@@ -260,7 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D87E6B6F2C48FFFE005CC397 /* WebView.swift in Sources */,
+				D8093D3E2CB46FC800A6D61E /* WebView.swift in Sources */,
+				D8093D422CB4702B00A6D61E /* WebView.swift in Sources */,
 				D87E6B472C48FFAA005CC397 /* ContentView.swift in Sources */,
 				D87E6B452C48FFAA005CC397 /* AMiOSAppApp.swift in Sources */,
 			);
@@ -479,7 +483,6 @@
 		D87E6B692C48FFAB005CC397 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -499,7 +502,6 @@
 		D87E6B6A2C48FFAB005CC397 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -519,7 +521,6 @@
 		D87E6B6C2C48FFAB005CC397 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = M77LC3MQ6S;
@@ -537,7 +538,6 @@
 		D87E6B6D2C48FFAB005CC397 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = M77LC3MQ6S;
